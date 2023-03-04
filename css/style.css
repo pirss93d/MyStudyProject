@@ -1,0 +1,160 @@
+/*Обнуляем отступы*/
+html {
+  box-sizing: border-box;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+/*Шапка*/
+.header {
+  width: 320px;
+  display: flex;
+  height: 88px;
+
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header__menu {
+  display: flex;
+}
+
+/*Основной контент main */
+.background {
+  width: 320px;
+  height: 509px;
+  background: rgb(32, 81, 145);
+  margin-left: auto;
+  margin-right: auto;
+}
+/*Бургер */
+.header__burger {
+  margin-top: 24px;
+  margin-bottom: 24px;
+  margin-left: 16px;
+  margin-right: 264px;
+}
+/*линии бургера*/
+.header__burger--top-line {
+  position: absolute;
+  width: 18px;
+  height: 2px;
+  background-color: white;
+  margin-top: 12px;
+  margin-bottom: 26px;
+  margin-left: 11px;
+}
+.header__burger--center-line {
+  position: absolute;
+  width: 10px;
+  height: 2px;
+  background-color: white;
+  margin-top: 19px;
+  margin-left: 11px;
+}
+.header__burger--bottom-line {
+  position: absolute;
+  width: 14px;
+  height: 2px;
+  background-color: white;
+  margin-top: 26px;
+  margin-left: 11px;
+}
+/*C P S логотип*/
+.header__group {
+  display: flex;
+  position: absolute;
+  margin-top: 18.59px;
+  margin-left: 72.73px;
+  width: 96.55px;
+  height: 50.81px;
+}
+/*Буквы логотипа  C P S*/
+.header__group--fill3 {
+  margin-top: 24.68px;
+  margin-right: 29.76px;
+}
+.header__group--fill5 {
+  position: absolute;
+  margin-top: 10.16px;
+  margin-left: 11.61px;
+}
+
+.header__group--fill6 {
+  position: absolute;
+  margin-top: 10.16px;
+  margin-left: 40.65px;
+}
+.header__group--fill7 {
+  position: absolute;
+  margin-top: 10.16px;
+  margin-left: 62.43px;
+}
+.header__group--fill1 {
+  position: absolute;
+  margin-top: 0;
+  margin-right: 0;
+  margin-left: 34.84px;
+}
+/*Делитель*/
+.header__divider {
+  position: absolute;
+  width: 2px;
+  height: 32px;
+  margin-top: 28px;
+  margin-left: 186px;
+}
+/*фон кнопки с ключём и отвёрткой*/
+.header__repair {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  margin-top: 24px;
+  margin-left: 208px;
+}
+
+.header__repair--group {
+  display: flex;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  margin: 10px 10px 10px 10px;
+}
+.header__repair--tip {
+  position: absolute;
+  display: flex;
+  margin-left: 11px;
+}
+.header__repair--lever {
+  position: absolute;
+  display: flex;
+  margin-top: 11px;
+}
+/*Чек статус*/
+.header__checkstatus {
+  position: absolute;
+  margin-top: 24px;
+  margin-left: 264px;
+}
+
+.header__checkstatus--back {
+  position: absolute;
+}
+.header__checkstatus--icon {
+  position: absolute;
+  margin-top: 10px;
+  margin-left: 12px;
+}
+
+/*Нижний неон хедера*/
+.header__shadow {
+  display: flex;
+  margin-top: 87px;
+  position: absolute;
+}
