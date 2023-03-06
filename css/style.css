@@ -25,14 +25,6 @@ body {
   display: flex;
 }
 
-/*Основной контент main */
-.background {
-  width: 320px;
-  height: 509px;
-  background: rgb(32, 81, 145);
-  margin-left: auto;
-  margin-right: auto;
-}
 /*Бургер */
 .header__burger {
   margin-top: 24px;
@@ -156,5 +148,33 @@ body {
 .header__shadow {
   display: flex;
   margin-top: 87px;
+  position: absolute;
+}
+
+/*Main*/
+.main {
+  display: flex;
+
+  width: 320px;
+  height: 509px;
+  background: rgb(32, 81, 145);
+  margin-left: auto;
+  margin-right: auto;
+}
+.main__title {
+  display: flex;
+  margin-top: 24px;
+  width: 304px;
+  height: 40px;
+}
+
+.main__title--text {
+  margin: 0;
+  margin-left: 16px;
+  width: 288px;
+  height: 40px;
+}
+
+.slider__button1 {
   position: absolute;
 }
