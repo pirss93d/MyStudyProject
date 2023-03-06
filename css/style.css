@@ -157,7 +157,6 @@ body {
 
   width: 320px;
   height: 509px;
-  background: rgb(32, 81, 145);
   margin-left: auto;
   margin-right: auto;
 }
@@ -174,7 +173,32 @@ body {
   width: 288px;
   height: 40px;
 }
-
-.slider__button1 {
+/*кнопки*/
+.main__slidemenu {
   position: absolute;
+  display: flex;
+  width: 246px;
+  height: 60px;
+  margin-top: 176px;
+  overflow: scroll;
+  overflow-y: hidden;
+  margin-left: 16px;
+}
+.main__button1 {
+  position: absolute;
+
+  width: 246px;
+  height: 40px;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+}
+.button1 {
+  position: absolute;
+  margin-top: 8px;
+  width: 220px;
+  height: 15px;
+  position: absolute;
+  border: 2px solid #b8ffec;
+  border-radius: 6px;
+  font-size: 16px;
 }
