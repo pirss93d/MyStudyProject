@@ -784,6 +784,8 @@ body {
   }
   .main__picture--border {
     display: flex;
+    position: absolute;
+    border-radius: 6px;
     margin-top: 168px;
     margin-left: 384px;
   }
@@ -791,13 +793,11 @@ body {
 
 /*Разрешение 1120px для  картики*/
 @media (min-width: 1120px) {
-  .main__picture {
-    display: none;
-  }
   .main__picture--border {
     display: flex;
     width: 531.35px;
     height: 307px;
+    border-radius: 6px;
     margin-top: 179px;
     margin-left: 560px;
   }
