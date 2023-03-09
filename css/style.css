@@ -795,6 +795,7 @@ body {
 @media (min-width: 1120px) {
   .main__picture--border {
     display: flex;
+    position: absolute;
     width: 531.35px;
     height: 307px;
     border-radius: 6px;
