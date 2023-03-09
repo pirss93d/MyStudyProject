@@ -496,6 +496,7 @@ body {
   overflow-x: scroll;
   overflow-y: hidden;
   white-space: nowrap;
+  background-color: white;
 }
 /*кнопки background разрешение 768*/
 @media (min-width: 768px) {
@@ -533,6 +534,7 @@ body {
   width: 246px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 .main__slidemenu--button1:hover {
   border-radius: 6px;
@@ -545,6 +547,7 @@ body {
   width: 246px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 
 .main__slidemenu--button2:hover {
@@ -559,6 +562,7 @@ body {
   width: 246px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 .main__slidemenu--button3:hover {
   border-radius: 6px;
@@ -571,6 +575,7 @@ body {
   width: 246px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 .main__slidemenu--button4:hover {
   border-radius: 6px;
@@ -583,6 +588,7 @@ body {
   width: 246px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 .main__slidemenu--button5:hover {
   border-radius: 6px;
@@ -595,6 +601,7 @@ body {
   width: 75px;
   height: 40px;
   border: none;
+  background-color: white;
 }
 .main__slidemenu--button6:hover {
   border-radius: 6px;
