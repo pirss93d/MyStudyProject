@@ -46,7 +46,6 @@ body {
     display: none;
   }
 }
-
 .header__menu {
   display: flex;
 }
@@ -76,6 +75,7 @@ body {
   margin-bottom: 26px;
   margin-left: 11px;
 }
+/*центральная линия бургера*/
 .header__burger--center-line {
   position: absolute;
   width: 10px;
